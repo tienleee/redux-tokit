@@ -13,7 +13,7 @@ const productAPI = createApi({
             providesTags: ['Product']
         }),
         getProductsById: builder.query<IProduct, number | string>({
-            query: (id) => `/products/${id}`,
+            query: (id:string) => `/products/${id}`,
             providesTags: ['Product']
         }),
         addProducts: builder.mutation({

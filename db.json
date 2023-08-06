@@ -4,19 +4,22 @@
       "id": 2,
       "name": "Product B",
       "price": 200,
-      "desc": "B"
+      "desc": "B",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhUXQsrLKtjBw-KpZxMsC3KDBEkzgizGm9w&usqp=CAU"
     },
     {
       "name": "Product C",
       "id": 3,
       "price": 300,
-      "desc": "C"
+      "desc": "C",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhUXQsrLKtjBw-KpZxMsC3KDBEkzgizGm9w&usqp=CAU"
     },
     {
       "name": "Product D",
       "price": "400",
       "desc": "D",
-      "id": 4
+      "id": 4,
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhUXQsrLKtjBw-KpZxMsC3KDBEkzgizGm9w&usqp=CAU"
     }
   ],
   "cart": []

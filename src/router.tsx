@@ -5,7 +5,8 @@ import ProductAdd from "./pages/admin/addProduct";
 import ProductEdit from "./pages/admin/editProduct";
 import Header from "./components/layOut/header";
 import Banner from "./components/layOut/banner";
-import List from "./components/layOut/list";
+import List from "./components/listProducts";
+import DeiltalProduct from "./components/deiltalProduct";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,13 @@ export const router = createBrowserRouter([
          <Banner/>
          <List/>
 
+        </div>,
+    },
+    {
+        path:"/deiltalProduct/:id",
+        element:<div>
+            <Header/>
+            <DeiltalProduct/>
         </div>,
     },
     {
